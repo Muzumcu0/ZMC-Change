@@ -1,0 +1,53 @@
+#--- Temel Kütüphaneler ve Veri İşleme ---
+
+pandas
+numpy==2.2.6 # Numba ile uyumluluk için sürüm sabitlendi
+scikit-learn
+matplotlib  # Grafik çizimi için eklendi
+seaborn     # Gelişmiş grafikler için
+plotly      # İnteraktif grafikler için eklendi
+pandas-ta   # Teknik analiz göstergeleri için eklendi
+
+#--- Makine Öğrenmesi Modelleri ---
+
+xgboost
+lightgbm
+numba==0.61.2 # Numpy ile uyumluluk için sürüm sabitlendi
+
+#--- Veri Toplama ve API İstekleri ---
+
+requests
+python-dotenv
+ccxt
+praw
+pytrends
+beautifulsoup4
+feedparser
+
+#--- NLP ve Sentiment Analizi ---
+
+nltk # Şimdilik kullanılmıyor, ileride eklenecek
+
+sentence-transformers
+
+#--- API Sunucusu ---
+
+fastapi[all] # "[all]" eki, /docs arayüzü gibi tüm özellikleri yükler
+uvicorn
+
+#--- Model Optimizasyon ve Açıklanabilirlik ---
+
+optuna
+shap
+
+#--- Veritabanı Bağlantısı ---
+
+sqlalchemy
+
+#Not: Proje PostgreSQL'e geçtiğinde bu kütüphane gerekecek
+
+psycopg2-binary
+
+#--- Geliştirme Ortamı (Jupyter Notebooks için) ---
+
+jupyterlab

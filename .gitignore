@@ -1,0 +1,14 @@
+# Python
+venv/
+__pycache__/
+*.py[cod]
+
+# Veri ve Modeller (Genelde çok büyük olurlar)
+*.csv
+*.h5
+*.model
+*.joblib
+
+# Ortam değişkenleri (Önceki konuşmamızda yüklemek istediğini söylemiştin, 
+# eğer hala yüklemek istiyorsan aşağıdaki satırı silebilirsin)
+# .envZMC-Change.mp4
